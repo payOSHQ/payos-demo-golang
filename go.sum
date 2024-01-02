@@ -4,3 +4,5 @@ github.com/payOSHQ/payos-lib-golang v0.0.1 h1:rqlLOkqyOrQa7MkUptAeMQJP3Z1h+1JvPe
 github.com/payOSHQ/payos-lib-golang v0.0.1/go.mod h1:xmmiB5s8Awl15vDU0wuqguOgS9zsb682qshcvGsxjvU=
 github.com/payOSHQ/payos-lib-golang v1.0.0 h1:L6nKH8Rkzch3KWskRECYvvcKHRgKBjh1OCy1bz4ceVo=
 github.com/payOSHQ/payos-lib-golang v1.0.0/go.mod h1:xmmiB5s8Awl15vDU0wuqguOgS9zsb682qshcvGsxjvU=
+github.com/payOSHQ/payos-lib-golang v1.0.1 h1:A8DAT9+TuKsLIIy8FmiBBKxB6SSFhx1rGyJnD+3JePo=
+github.com/payOSHQ/payos-lib-golang v1.0.1/go.mod h1:xmmiB5s8Awl15vDU0wuqguOgS9zsb682qshcvGsxjvU=
