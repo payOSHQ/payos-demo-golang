@@ -24,8 +24,15 @@ func GenerateNumber() int {
 
 func CreatePaymentLink(w http.ResponseWriter, r *http.Request) {
 	body := payos.CheckoutRequestType{
-		OrderCode:   GenerateNumber(),
-		Amount:      2000,
+		OrderCode: GenerateNumber(),
+		Amount:    2000,
+		Items: []payos.Item{
+			{
+				Name:     "My tom Hao Hao ly",
+				Price:    2000,
+				Quantity: 1,
+			},
+		},
 		Description: "Thanh toan don hang",
 		CancelUrl:   config.YOUR_DOMAIN + "/cancel/",
 		ReturnUrl:   config.YOUR_DOMAIN + "/success/",
